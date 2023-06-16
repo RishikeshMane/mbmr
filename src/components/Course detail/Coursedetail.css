@@ -1,0 +1,45 @@
+.container
+{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.rectangle-1 
+{
+    margin: 0;
+    padding-top: 100px;
+    padding-left: 0px;
+    Offset: 0px, 4px
+}
+
+.rectangle-2 
+{
+    margin: 0;
+    padding-top: 80px;  
+}
+
+
+.rectangle-3 
+{
+    padding: 10px;
+    margin: 0;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.rectangle-4 
+{
+    margin: 0;
+    padding-top: 80px;
+}
+
+.rectangle-5 
+{
+    margin: 0;
+    padding-top: 100px;
+}

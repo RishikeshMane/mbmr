@@ -1,0 +1,40 @@
+.Video_section {
+    text-align: center;
+    vertical-align: center;
+  }
+  .Video_section > .learning_btn {
+    width:100%;
+    height:52px;
+    background:#fd7e08;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:all 0.2s ease-in;
+    cursor:pointer;
+  }
+  .Video_section > .learning_btn:hover {
+    background:rgb(255, 204, 0);
+    color:black;
+    
+  }
+  .learning_btn h2{
+    margin:0px
+    
+  }
+  
+  @media screen and (width < 600px){
+    .Video_section > .learning_btn {
+    height:42px;
+    background:#fd7e08;
+   
+  }
+  }
+  
+  
+  
+  :root {
+    --plyr-color-main: #fd7e08;
+    --plyr-badge-border-radius:30px;
+    --plyr-range-thumb-height:10px;
+  }

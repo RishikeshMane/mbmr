@@ -1,0 +1,58 @@
+div .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Border{
+    border-radius: 10px;
+}
+.input1{
+     padding: 0.4rem;
+     width: 25rem;
+     font-size: 1rem;
+     margin-bottom:1rem ;
+     border: 1px solid grey;
+     border-radius: 4px;
+}
+.input2{
+    padding: 0.4rem;
+    width: 25rem;
+    font-size: 1rem;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+.input91{
+    width: 4rem;
+    padding: .1rem;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+.inputnum{
+    margin-left: 12px;
+    padding-left: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    width: 324px;
+}
+.input4{
+    margin-top: 1rem;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    /* padding-left: 5px; */
+    padding: 0.7rem;
+    width: 400px;
+}
+.button{
+    padding: 0.2rem;
+    width: 220px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance:none;
+    margin: 0;
+}

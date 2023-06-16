@@ -1,0 +1,12 @@
+
+
+@media screen and (width < 490px) {
+    .input_div_contact{
+        width: 80% !important;
+        margin: auto !important;
+    }
+}
+
+.contactus_section input:focus , .contactus_section textarea:focus {
+    outline: solid 2px var(--primary-color);
+}

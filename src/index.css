@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ :root{
+    --font-raleway : Raleway ;
+    --primary-color : #F47D31;
+ }
+
+ *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  /* font-family: var(--font-raleway),sans-serif; */
+ }
+
+ h1{
+   font-weight: bolder;
+ }
+ /* h2,h3,h4,h5,h6{
+   font-weight: bolder;
+   font-size: initial;
+ } */
+
+ body,html{
+     max-width: 100dvw;
+     min-height: 100dvh;
+     overflow-x: hidden;
+ }
+ .hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,77 @@
+/* @import  "../../assets/Background.png"; */
+
+:root {
+  margin: 0;
+  padding: 0;
+}
+
+.Hero1 {
+  position: relative;
+  /* background: linear-gradient(rgba(0,0,0,0.2) rgba(0,0,0,0.2)) url("../../assets/Background.png") ; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center;
+  /* filter:blur(1px); */
+  /* background-color: black; */
+
+  backdrop-filter: brightness(0.5) saturate(0.4);
+
+  /* filter: brightness(0.5); */
+  /* opacity: 0.7;
+   z-index : -1 ; */
+}
+
+.paragraph-Heading,
+.Hero-button,
+.image {
+  z-index: 100000;
+}
+
+.Hero1 .image {
+  aspect-ratio: 1;
+}
+
+.black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.3;
+}
+
+.paragraph-Heading p {
+  font-size: clamp(13px, 2vw + 10px, 35px);
+  color: #ffffff;
+  text-align: center;
+  line-height: clamp(13px, 2vw + 10px, 35px);
+  backdrop-filter: blur(10px);
+  font-weight: 500;
+  z-index: 1000000;
+  font-family: var(--font-raleway);
+}
+
+@media screen and (max-width: 1000px) {
+  .Hero1 {
+    padding: 0 1.5rem;
+    justify-content: center;
+  }
+
+  .Hero1 p {
+    font-size: 22px;
+  }
+
+  .image {
+    position: absolute;
+    bottom: 0;
+  }
+}
